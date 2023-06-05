@@ -1,0 +1,116 @@
+file_path = input(": ")
+directories = 
+
+        files = glob.iglob("/c/Users/dedea/git/programasyon-python/*.csv", recursive = True)
+        if file_path not in files:
+            print("Dokuman ou a pa la, map jete m!")
+            sys.exit()
+        else:
+
+
+files = glob.iglob("/c/Users/dedea/git/programasyon-python/*.csv", recursive = True)
+
+
+
+
+def find(path, name):
+    for root, dirs,  files in os.walk(path):
+        if name in files:
+            result = os.path.join(root, name)
+        return result
+
+
+
+name = input("Ki non document ou a? ")
+        file = str(find(file_path, name) )
+
+
+
+            if name in file:
+
+
+
+e_pote = [(mass * GRAVITE * haut) for mass, haut in zip(masse, hauteur)]
+    e_cine = [((mass * vit**2) / 2) for mass, vit in zip(masse, vitesse)]
+    e_meca = [(i + g) for i, g in zip(e_pote, e_cine)]
+   
+from pytube import Youtube
+def download(url: str):
+    yt = Youtube(r{URL}) 
+    yt.streams.filter(file_extension="mp4")
+    mp4_files.get_by_resolution("360p")
+    mp4_369p_files.download =("C:\Users\dedea\Dropbox\PC\Downloads")
+
+
+if __name__ == "__main__":
+    download()
+
+
+
+
+def chwa():
+    ask = input("Do you wanna give a list of value? 
+    Answer by yes or no.")
+    if ask in ("Yes", "yes"):
+        function = inverse2()
+    else:
+        function = inverse1()
+    return function
+
+if __name__ == "__main__":
+    chwa()
+
+
+
+
+import csv
+import pandas as pd
+def tableur(file_path):
+    with open(file_path, "r", encoding="utf-8") as tsv_file:
+        lecture = pd.read_table(tsv_file, sep = ',')
+    return lecture
+
+
+
+
+graph_ep = plt.plot(idx, e_potent, "b-", lw=4)
+    graph_ec = plt.plot(idx, e_cine, "g-", lw=4)
+    graph_em = plt.plot(idx, e_mecan, "k-", lw=4)
+    plt.title("Evolution des energies")
+    plt.rcParams["figure.figsize"] = (30, 28)
+    plt.xlabel("Valeurs indexes")
+    plt.ylabel("Energies")
+    plt.grid("equal", axis="both")
+    plt.show()
+    plt.close()
+    return graph_ep, graph_ec, graph_em
+
+for x in range(1, 11):
+    print(repr(x).center(2), repr(x*x).center(3), end=' ')
+    # Note use of 'end' on previous line
+    print(repr(x*x*x).center(4))
+
+
+with open(file_path, "r", encoding="utf-8") as csv_file:
+        reader = csv.DictReader(csv_file)
+        for row in reader:
+            print(row)
+            return [
+        (float(row["masse"]), float(row["hauteur"]), float(row["vitesse"]))
+        for row in reader
+    ]
+
+
+names = ['group_a', 'group_b', 'group_c']
+values = [1, 10, 100]
+
+plt.figure(figsize=(9, 3))
+
+plt.subplot(221)
+plt.bar(names, values)
+plt.subplot(222)
+plt.scatter(names, values)
+plt.subplot(223)
+plt.plot(names, values)
+plt.suptitle('Categorical Plotting')
+plt.show()

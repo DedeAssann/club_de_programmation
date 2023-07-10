@@ -56,9 +56,9 @@ def identite():
         pays_de_naissance = str(input("Pays de naissance : "))
     adresse = str(input("Votre adresse actuelle : "))  # .isalphanum()
 
-    time.sleep(1)
+    time.sleep(2)
     print("\n\nVeuillez patienter...")
-    time.sleep(5)
+    time.sleep(4)
 
     id = """\n\n\n
     Recapitulatif de l'identite de {0} {1}.

@@ -14,6 +14,19 @@ def Christie ():
     
     print(nom,prenom,sex,dat_ou_fet_la,laj,peyi,manmanw,papaw,numero,adres)
     
+    
+def emilie():
+    nombre = input ("Entrez un nombre :")
+    entier = int(nombre)
+    print("le double de", entier, "est", entier*2) 
+    
+    def stephen():
+    soccer_player = []
+    palace = "Messi", "Neymar","cristiano"
+    for emilie in range (3):
+        soccer_player.append(palace[emilie])
+    print('Voici la list des joueurs :',soccer_player)
+
 if __name__ == "__main__":
-    Christie()
+ def stephen()
     

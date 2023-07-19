@@ -13,18 +13,40 @@ def id():
     print(Identite)
 
 
-"""
-la mwen pral ekri yon fonksyon ki pemet mw crer on liste epi mete valeurs nan liste lan
-"""
-fruits = []
-zimzim = "watermelon", "bananas", "strawberry", "ananas", "cherry", "perry"
-for index in range(6):
-    fruits.append(zimzim[index])
-print('Voici la liste des fruits : ', fruits)
+
+def zamboum():
+    """
+    la mwen pral ekri yon fonksyon ki pemet mw crer on liste epi mete valeurs nan liste lan
+    """
+    fruits = []
+    zimzim = "watermelon", "bananas", "strawberry", "ananas", "cherry", "perry"
+    for index in range(6):
+        fruits.append(zimzim[index])
+    print('Voici la liste des fruits : ', fruits)
 
 
-Classe_de_1ere = []
-eleves = "Debby", "Emilie", "Ira", "Roseline"
-for bimboom in range (4):
-    Classe_de_1ere.append(eleves[bimboom])
-print("Les eleves de 1ere sont : ", Classe_de_1ere)
+def boom():
+    Classe_de_1ere = []
+    eleves = "Debby", "Emilie", "Ira", "Roseline"
+    for bimboom in range (4):
+        Classe_de_1ere.append(eleves[bimboom])
+    print("Les eleves de 1ere sont : ", Classe_de_1ere)
+
+
+def combinaison():
+    """
+    done 
+    """
+
+    Zamzam = ["Debby", "Ira", "Rosy"]
+    Bambam = ["Surin", "Borgella", "Charles Pierre"]
+    combined = Zamzam + Bambam
+    print(combined)
+    
+    aller = ["bonjour, Zimbamboom"]
+    for wtv in aller :
+        print(aller)
+    
+
+if __name__ == "__main__":
+    combinaison()

@@ -8,8 +8,13 @@ Les dossiers sont nombreux alors pour permettre une meilleure gestion, ce progra
 qu'au momemt ou l'un d'eux est requis, c'est a dire lorsque le nom du dossier apparait, Python l'ouvre 
 """
 
-import json 
 
-def dossier1():
-    with open("anny.json") as f:
-        json.dump(Surin_Ann_Debby, f)
+with open("Surin Ann Debby", "w") as file:
+    file.write("nom = Surin\n") 
+    file.write("prenom = Ann Debby\n")
+    file.write("age = 15 ans\n")
+    file.write("numero_de_telephone = +50934462817\n")
+    file.write("adresse = Delmas 95\n")
+    file.write("email = anniesurin9@gmail.com\n")
+
+

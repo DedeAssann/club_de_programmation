@@ -5,4 +5,5 @@ a = range(100)
 
 result = filter(odd, a)
 print('Original List :', a)
-print('Filtered List :', list(result))
+print('Filtered List :', list(result)) 
+

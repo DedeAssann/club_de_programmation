@@ -15,7 +15,7 @@ def Christie ():
     print(nom,prenom,sex,dat_ou_fet_la,laj,peyi,manmanw,papaw,numero,adres)
     
     
-def emilie():
+def emilie(): 
     nombre = input ("Entrez un nombre :")
     entier = int(nombre)
     print("le double de", entier, "est", entier*2) 
@@ -30,3 +30,6 @@ def emilie():
 if __name__ == "__main__":
  def stephen()
     
+  
+  
+  

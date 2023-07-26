@@ -1,5 +1,6 @@
 """
-Ecrire un programme qui demande chacune de ces informations, et les garde dans des variables appropriées.
+Ecrire un programme qui demande chacune de ces informations, et les garde dans des variables 
+appropriées.
 """
 
 from datetime import date

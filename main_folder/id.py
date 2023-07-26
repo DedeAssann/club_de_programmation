@@ -570,8 +570,8 @@ def identite():
     }
     mois = mois_de_lannee[int(mois)]
     delta = date.today() - date_de_naissance
-    age = int(delta.days / 365.25)
     if age >= 18:
+    age = int(delta.days / 365.25)
         legalite = "Majeur"
     else:
         legalite = "Mineur"

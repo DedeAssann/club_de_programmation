@@ -38,8 +38,6 @@ def downloader(
         link = str(input("Put the youtube link over here : "))
         _yt = YouTube(link)
 
-    # filters out all the files with "mp4" extension
-    mp4files = _yt.streams.filter(file_extension="mp4", progressive=True)
 
     # Naming the file
     if filename is None:

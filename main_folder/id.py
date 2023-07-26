@@ -1,5 +1,6 @@
 """
-Ecrire un programme qui demande chacune de ces informations, et les garde dans des variables appropriées.
+Ecrire un programme qui demande chacune de ces informations, et les garde dans des variables 
+appropriées.
 """
 
 from datetime import date
@@ -569,8 +570,8 @@ def identite():
     }
     mois = mois_de_lannee[int(mois)]
     delta = date.today() - date_de_naissance
-    age = int(delta.days / 365.25)
     if age >= 18:
+    age = int(delta.days / 365.25)
         legalite = "Majeur"
     else:
         legalite = "Mineur"
@@ -589,14 +590,15 @@ def identite():
     while p.countries.get(name=pays_de_naissance.title()) is None:
         print("Pays de Naissance Invalide! Essayez une autre entree.")
         pays_de_naissance = str(input("Pays de naissance : "))
-    adresse = str(input("Votre adresse actuelle : "))  # .isalphanum()
+    adresse = str(input("Votre adresse actuelle : "))
     nationalite = t.translate(text=nn_mapping[pays_de_naissance])
 
     time.sleep(2)
     print("\n\nVeuillez patienter...")
     time.sleep(4)
 
-    id = f"""\n\n\n
+    print(
+        f"""\n\n\n
     Recapitulatif de l'identite de {civilite} {nom}.
         Nom          :   {nom}
         Prenom       :   {prenom}
@@ -607,8 +609,7 @@ def identite():
         Adresse      :   {adresse}
         Nationalite  :   {nationalite.title()}
     """
-
-    print(id)
+    )
     time.sleep(2)
 
 

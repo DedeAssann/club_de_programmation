@@ -1,0 +1,10 @@
+* Plan de la séance du 5 Juillet 2023*
+
+- Lister l'ensemble des informations faisant partie de l'identité d'une personne,
+tel que l'age, la date de naissance, le sexe, le pays de naissance, l'adresse à laquelle 
+vit la personne, etc...
+- Ecrire un programme qui demande chacune de ces informations, et les garde dans des variables appropriées.
+- Verifier la nature et la vraisemblance de chacune des informations (par exemple en verifiant les types de donnée fournies...)
+- Faire les calculs nécessaires sur ces informations, si cela s'avère nécessaire.
+- Utiliser ces informations pour proposer une identité à la personne ( Un modèle de pièce d'identité) par exemple en utilisant la fonction intégrée *print* de Python.
+- Encapsuler le code complet dans une fonction pour laquelle vous rédigerez une documentation.

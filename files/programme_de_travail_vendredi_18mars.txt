@@ -1,3 +1,0 @@
-- Recherche sur if. elif, else statements
-- Ecrire un bloc de code qui utilise ces statements
-- Apprendre à resoudre les equations du premier degré avec python

@@ -1,0 +1,9 @@
+Nom: John Doe
+Age: 30
+Occupation: Engineer
+Location: New York
+
+Nom: Jane Smith
+Age: 25
+Occupation: Teacher
+Location: Los Angeles
